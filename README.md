@@ -2,7 +2,12 @@
 
 # ASCII Art Generator with Text
 
-**ASCII Art Generator with Text** is a web application that converts images into ASCII art and adds custom text overlay, creating visual compositions with vintage effects.
+This is the source code for the **ASCII Art Generator with Text** at my [website](https://mozartsempiano.neocities.org/outros/gerador-ascii-texto). It is a web application that converts images into ASCII art and adds custom text below, with some overlays in order to simulate a typewriter.
+
+I suggest using [Gabrielle Ribbon FG](https://www.dafont.com/gabriele-ribbon-fg.font) or a similar font for a better output.
+
+| ![Example 1](https://i.imgur.com/lvTkDlk.jpeg) | ![Example 2](https://i.imgur.com/GQMel3j.jpeg) |
+| :--------------------------------------------: | :--------------------------------------------: |
 
 ## Features
 
@@ -23,7 +28,7 @@
 
 - Save generated image in JPG format.
 - High quality output (95% compression).
-- Automatic filename with timestamp.
+- Filename with timestamp.
 
 ## Contact
 
