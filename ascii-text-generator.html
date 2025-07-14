@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ASCII Art Generator with Text</title>
+
+    <link rel="stylesheet" href="ascii.css" />
+
+    <script src="carta-ascii-texto.js"></script>
+  </head>
+
+  <body>
+    <div id="conteudo">
+      <h1>ASCII Art Generator with Text<span class="typewriter-barra"></span></h1>
+
+      <input type="text" id="imageURL" placeholder="Paste the image link here" value="https://i.imgur.com/XKIhTDH.png" /><br />
+      <textarea id="textInput" rows="3" placeholder="Write your text here">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et ultricies ligula. Pellentesque ac consectetur mi, in ultricies magna. Cras pretium luctus magna vel consectetur. Sed quis tortor quam. Maecenas luctus feugiat interdum. In dignissim felis sit amet odio elementum convallis. Vivamus consectetur, orci a lacinia dictum, massa orci porta felis, ac finibus ex leo a justo. Donec et vehicula mauris, a pretium nunc. Duis euismod pellentesque ex sit amet molestie. Aliquam viverra odio ut accumsan maximus. Vestibulum malesuada lectus vitae nulla placerat, ullamcorper fermentum velit sollicitudin. Vestibulum quis sapien venenatis, placerat lectus in, commodo est. In at nisl in dolor interdum vulputate. Sed suscipit libero tortor, vitae molestie orci porta vel. Sed mollis semper nunc sit amet porttitor.
+
+Sed pellentesque condimentum ligula sed vestibulum. Integer non nisi hendrerit, sollicitudin dolor et, mattis est. Ut molestie nibh non augue tempus, in auctor urna consectetur. Vivamus magna lorem, eleifend nec lorem eget, tempor fermentum lorem. Curabitur quis molestie arcu, elementum laoreet augue. Vivamus dapibus erat eget orci interdum, quis aliquam lectus viverra. Suspendisse ac feugiat quam. Maecenas urna dui, eleifend non turpis eu, laoreet fermentum lacus. Cras quis ligula eget leo viverra molestie ut ut eros.</textarea
+      ><br />
+
+      <button onclick="generateImage()">Generate Image</button>
+      <button onclick="downloadImage()">Download Image</button>
+
+      <br />
+      <canvas id="canvas" class="fade-in-up"></canvas>
+    </div>
+  </body>
+</html>
