@@ -1,10 +1,6 @@
-@import url("variaveis.css");
-@import url("fonts.css");
-@import url("animations.css");
-
 @font-face {
 	font-family: "gabriele-d";
-	src: url("../fonts/gabriele-d.ttf") format("truetype");
+	src: url("/assets/fonts/gabriele-d.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
