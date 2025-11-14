@@ -2,9 +2,7 @@
 
 # ASCII Art Generator with Text
 
-This is the source code for the **ASCII Art Generator with Text** at my [website](https://mozartsempiano.neocities.org/outros/gerador-ascii-texto). It is a web application that converts images into ASCII art and adds custom text below, with some overlays in order to simulate a typewriter.
-
-I suggest using [Gabrielle Ribbon FG](https://www.dafont.com/gabriele-ribbon-fg.font) or a similar font for a better output.
+This is the source code for my [**ASCII Art Generator with Text**](https://mozartsempiano.github.io/ascii-text-generator/). It is a web application that converts images into ASCII art and adds custom text below, with some overlays in order to simulate a typewriter.
 
 | ![Example 1](https://i.imgur.com/lvTkDlk.jpeg) | ![Example 2](https://i.imgur.com/GQMel3j.jpeg) |
 | :--------------------------------------------: | :--------------------------------------------: |
