@@ -1,5 +1,3 @@
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V81FVVVI)
-
 # ASCII Art Generator with Text
 
 This is the source code for my [**ASCII Art Generator with Text**](https://mozartsempiano.github.io/ascii-text-generator/). It is a web application that converts images into ASCII art and adds custom text below, with some overlays in order to simulate a typewriter.
